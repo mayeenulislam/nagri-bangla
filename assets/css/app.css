@@ -1,10 +1,3 @@
-/* @font-face {
-	font-family: 'Siyam Rupali';
-	src: url('../fonts/SiyamRupali.eot?version=1.070');
-	src: local('Siyam Rupali'), url('../fonts/SiyamRupali.woff?version=1.070') format('woff'), url('../fonts/SiyamRupali.ttf?version=1.070') format('truetype');
-	font-style: normal;
-} */
-
 @font-face {
 	font-family: 'Surma';
 	src: url('../fonts/Surma.eot?#iefix') format('embedded-opentype'),  url('../fonts/Surma.woff') format('woff'), url('../fonts/Surma.ttf')  format('truetype'), url('../fonts/Surma.svg#Surma') format('svg');
@@ -17,7 +10,7 @@ body {
     font-family: 'Surma', 'Hind Siliguri', SolaimanLipi, Vrinda, Arial, Helvetica, sans-serif;
 }
 
-#bengali {
+#bangla {
 	font-size: 20px;
 	line-height: 25px;
 }

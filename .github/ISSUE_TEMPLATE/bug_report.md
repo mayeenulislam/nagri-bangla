@@ -1,6 +1,6 @@
 ---
 name: Bug report
-about: Create a report to help us improve Nagri-Bengali
+about: Create a report to help us improve Nagri-Bangla
 title: ''
 labels: 'bug'
 assignees: ''
