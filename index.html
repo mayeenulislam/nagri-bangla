@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>সিলেটি নাগরি-বাংলা লিপ্যন্তর</title>
+    <link rel="icon" href="favicon.png" sizes="64x64" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/app.css">
+</head>
+<body class="bg-light">
+    <div class="container-fluid py-5 ">
+        <h1 class="text-center fw-bold mb-0">
+            <span class="visually-hidden">সিলেটি</span> নাগরি<i class="bi bi-arrow-left-right text-muted small"><span class="visually-hidden">-</span></i>বাংলা লিপ্যন্তর!<sup class="alpha-badge text-white rounded-pill ml-n1">alpha</sup>
+        </h1>
+        <p class="text-center mt-0 px-5">এটি কোনো অনুবাদক নয় &mdash; লিপির বদলমাত্র</p>
+        <hr class="separator mb-5 mt-1">
+        <div class="row">
+            <div class="col-md-4 offset-md-2 col-sm-6">
+                <div class="mb-3 text-block converter">
+                    <label for="nagri" class="fw-bold">নাগরি লেখা</label>
+                    <textarea id="nagri" cols="30" rows="5" class="form-control" placeholder="ꠁꠘꠧ ꠘꠣꠉꠞꠤꠔ ꠟꠦꠈꠧꠇ꠆ꠇꠣ..." data-gramm_editor="false"></textarea>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <div class="mb-3 text-block text-block-bottom">
+                    <label for="bangla" class="fw-bold">বাংলা লেখা</label>
+                    <textarea id="bangla" cols="30" rows="5" class="form-control" placeholder="বাংলায় লিখুন এখানে..." data-gramm_editor="false"></textarea>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-3">
+            <div class="col-md-8 offset-md-2">
+                <p class="text-center px-md-5">এটি একটি পরীক্ষামূলক প্রচেষ্টা - শ্রেফ সিলেটি নাগরি অক্ষরকে বাংলা অক্ষর, আর বাংলা অক্ষরকে সিলেটি নাগরি অক্ষর দিয়ে প্রতিস্থাপন করা হয়েছে মাত্র। এর মূল উদ্দেশ্য হচ্ছে, সিলেটি নাগরি হরফকে বাংলায় এবং বাংলা হরফকে সিলেটি নাগরিতে দেখা - কোনোভাবেই ভাষান্তর কিংবা বাক্য গঠন করা নয়</p>
+                <div class="text-center">
+                    <a href="https://github.com/mayeenulislam/nagri-bangla/issues/new/choose" class="btn btn-outline-danger btn-sm rounded-pill" target="_blank" rel="noopener">
+                        <i class="bi bi-bug me-1" aria-hidden="true"></i>
+                        ত্রুটি অবহিত করুন
+                    </a>
+                    <a href="https://github.com/mayeenulislam/nagri-bangla/" class="btn btn-outline-primary btn-sm rounded-pill" target="_blank" rel="noopener">
+                        <i class="bi bi-star me-1" aria-hidden="true"></i>
+                        ভালোবাসা জানান
+                    </a>
+                </div>
+            </div>
+        </div>
+        <p class="text-center small text-muted mt-5">
+            কৃতজ্ঞতা <a href="http://www.sylheti.org.uk/unicode-font" target="_blank" rel="noopener nofollow" class="text-decoration-none">সিলেটি নাগরি সুরমা ফন্ট</a>
+            <span class="mx-2">|</span>
+            কোড ও বিস্তারিত <a href="https://github.com/mayeenulislam/nagri-bangla" target="_blank" rel="noopener" class="text-decoration-none">Github রেপোযিটরিতে</a>
+            <span class="mx-2">|</span>
+            তৈরি করেছেন <a href="https://nishachor.com" target="_blank" rel="noopener" class="text-decoration-none">মঈনুল ইসলাম</a>
+        </p>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+        crossorigin="anonymous"></script>
+    <script src="assets/js/nagri-bangla.js"></script>
+    <script src="assets/js/bangla-nagri.js"></script>
+</body>
+</html>
