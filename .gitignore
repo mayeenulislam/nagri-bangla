@@ -1,0 +1,72 @@
+## --------------
+## IDE/Editor
+## --------------
+
+/.idea
+/.vscode
+/nbproject/*
+*.sublime-project
+*.sublime-workspace
+_ide_helper.php
+sublime-gulp.log
+*.todo
+*.code-workspace
+.history
+bash.exe.stackdump
+
+
+## --------------
+## Build files
+## --------------
+
+/dist/*
+
+
+## --------------
+## Node, npm, yarn
+## --------------
+
+/node_modules
+npm-debug.log
+yarn-error.log
+package-lock.json #as we are using yarn and want to stick to it only
+
+## --------------
+## Archives
+## --------------
+
+*.rar
+*.zip
+*.7zip
+
+## --------------
+## Windows Shortcuts
+## --------------
+
+*.lnk
+
+## --------------
+## Windows image file caches
+## --------------
+
+Thumbs.db
+ehthumbs.db
+
+## --------------
+## Folder config files
+## --------------
+
+Desktop.ini
+
+## --------------
+## Recycle Bin used on file shares
+## --------------
+
+$RECYCLE.BIN/
+
+## --------------
+## Others
+## --------------
+
+*.log
+/puppeteer
