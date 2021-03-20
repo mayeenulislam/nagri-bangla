@@ -37,6 +37,10 @@
                 <div class="mb-3 text-block converter">
                     <label for="nagri" class="fw-bold">নাগরি লেখা</label>
                     <textarea id="nagri" cols="30" rows="5" class="form-control" placeholder="ꠁꠘꠧ ꠘꠣꠉꠞꠤꠔ ꠟꠦꠈꠧꠇ꠆ꠇꠣ..." data-gramm_editor="false"></textarea>
+                    <button type="button" id="toggle-nagri-keyboard" onClick="toggleKeyboard(this)" aria-expanded="false" aria-controls="nagri-keyboard-collapsible" class="btn btn-secondary btn-sm">
+                        <i class="bi bi-keyboard" aria-hidden="true"></i>
+                        <span class="visually-hidden">নাগরি কীবোর্ড দেখান/লুকান</span>
+                    </button>
                 </div>
             </div>
             <div class="col-md-4 col-sm-6">
@@ -70,11 +74,22 @@
         </p>
     </div>
 
+    <div id="nagri-keyboard" class="card p-2 shadow-sm bg-dark" style="display: none" aria-hidden="true">
+        <h3 class="bg-danger text-white p-2 h6 rounded">
+            <button type="button" id="hide-keyboard" class="btn btn-link btn-sm text-white float-end" style="margin-top: -0.25rem;">
+                <i class="bi bi-x-circle" aria-hidden="true"></i>
+            </button>
+            নাগরি পর্দা-কীবোর্ড
+        </h3>
+        <div id="keys" class="text-center"></div>
+    </div>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
         crossorigin="anonymous"></script>
     <script src="assets/js/nagri-bangla.js"></script>
     <script src="assets/js/bangla-nagri.js"></script>
+    <script src="assets/js/nagri-keyboard.js"></script>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-136467145-1"></script>

@@ -110,3 +110,51 @@ body {
 		-webkit-transform: translate(0, -50%) rotate(0deg);
 	}
 }
+
+#toggle-nagri-keyboard {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+
+#nagri-keyboard {
+	position: fixed;
+	left: 0;
+	transform: translateX(0);
+	right: 0;
+	bottom: 0;
+	z-index: 101; /* above interchange icon */
+	max-width: 760px;
+}
+
+@media (min-width: 768px) {
+	#nagri-keyboard {
+		left: 50%;
+		transform: translateX(-50%);
+	}
+}
+
+#keys {
+	max-height: 200px;
+	overflow-y: scroll;
+}
+
+#nagri-keyboard kbd {
+	font-family: 'Surma', 'Hind Siliguri', SolaimanLipi, Vrinda, Arial, Helvetica, sans-serif;
+	min-width: 50px;
+}
+
+#nagri-keyboard kbd span {
+	font-size: 18px;
+}
+
+#nagri-keyboard kbd:active {
+	background-color: #e1e1e1;
+	color: #aaa;
+	border-color: #999;
+	transform: scale(1.2);
+}
+
+#nagri-keyboard kbd:active span {
+	color: #333;
+}
