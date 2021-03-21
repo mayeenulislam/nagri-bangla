@@ -38,6 +38,9 @@
                     <label for="nagri" class="fw-bold">নাগরি লেখা</label>
                     <textarea id="nagri" cols="30" rows="5" class="form-control" placeholder="ꠁꠘꠧ ꠘꠣꠉꠞꠤꠔ ꠟꠦꠈꠧꠇ꠆ꠇꠣ..." data-gramm_editor="false"></textarea>
                 </div>
+                <div>
+                    <button onclick="copyText('nagri')">অনুলিপি</button>
+                </div>
             </div>
             <div class="col-md-4 col-sm-6">
                 <div class="mb-3 text-block text-block-bottom">
@@ -45,7 +48,7 @@
                     <textarea id="bangla" cols="30" rows="5" class="form-control" placeholder="বাংলায় লিখুন এখানে..." data-gramm_editor="false"></textarea>
                 </div>
                 <div>
-                    <button onclick="copyText()">অনুলিপি</button>
+                    <button onclick="copyText('bangla')">অনুলিপি</button>
                 </div>
             </div>
         </div>

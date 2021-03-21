@@ -1,6 +1,6 @@
-function copyText() {
+function copyText(elementId) {
     /* Get the text field */
-    var copyText = document.getElementById("bangla");
+    var copyText = document.getElementById(elementId);
 
     /* Select the text field */
     copyText.select();
