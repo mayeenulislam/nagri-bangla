@@ -9,6 +9,6 @@ function copyText(elementId) {
     /* Copy the text inside the text field */
     document.execCommand("copy");
 
-    /* Alert the copied text */
-    alert("Copied the text: " + copyText.value);
+    //TODO: enable indicative icon
+    // alert("Copied the text: " + copyText.value);
 }
