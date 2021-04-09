@@ -110,3 +110,10 @@ body {
 		-webkit-transform: translate(0, -50%) rotate(0deg);
 	}
 }
+
+.copy-btn {
+	position: absolute;
+	bottom: 1px;
+	left: 1px;
+	background-color: rgba(255, 255, 255, 0.95);
+}
